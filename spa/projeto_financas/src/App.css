@@ -1,0 +1,13 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Faz o container ocupar toda a altura da tela */
+}
+
+.app > * {
+    flex-shrink: 0; /* Evita que os filhos diminuam */
+}
+
+.app .outlet_container {
+    flex-grow: 1; /* Faz o conteúdo principal ocupar o espaço restante */
+}
