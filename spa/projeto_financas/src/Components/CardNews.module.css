@@ -1,0 +1,13 @@
+#containerCardNews {
+    width: 450px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#containerCardNews a {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
